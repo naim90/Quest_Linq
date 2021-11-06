@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\LINQ\\LINQ.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Quest_Linq\\LINQ\\LINQ.csproj",
       "projectName": "LINQ",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\LINQ\\LINQ.csproj",
+      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Quest_Linq\\LINQ\\LINQ.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\LINQ\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Quest_Linq\\LINQ\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

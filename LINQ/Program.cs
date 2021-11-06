@@ -118,10 +118,6 @@ namespace LINQ
             }
 
 
-/*            var whiteCougarSpecies = espece.Where((s) => s.Name.Contains("Les cougars blanc"));
-
-            //IEnumerable<int> whiteCougars = espece.Where((a) => a. == whiteCougarSpecies);
-            IEnumerable<String> methodNames = typeof(String).GetMethods().Select(x => x.Name);*/
 
             IEnumerable<Animal> whiteTigers = animal.Where((a) => a.Species.Name== "Tigre blanc").ToList();
             
@@ -135,54 +131,6 @@ namespace LINQ
 
             Console.WriteLine($"3-Tortue Albinos.Il en Reste {whiteTortue.Count()}");
 
-
-            /*            foreach (var i in Animals)
-                        {
-                            var whiteCougarSpecies = i.species.Where((s) => s.Name == "White cougar");
-                            IEnumerable<Animal> whiteCougars = i.Animals.Where((a) => a.Species == whiteCougarSpecies);
-                        }
-
-                        foreach (var i in whiteCougars)
-                        {
-                                Console.WriteLine(i.species + "en voie de disparition");
-                        }*/
-
-            /*
-                        foreach (var i in Animals)
-                        {
-                            if (i.species.enVoieDeDisparition = true)
-                            {
-                                Console.WriteLine("" + i.Nombre + " " + i.species.Name + "en voie de disparition");
-                            }
-                        }*/
-
-
-
-
-
-
-
-
-
-
-
-
-            /*             espece.Add=
-
-
-
-                        var whiteCougarSpecies = species.  Where((s) => s.Name == "White cougar");
-
-                        AnimalContext animaux = new AnimalContext();
-
-                        var filteredNoms=from
-
-                            using (var nom in filteredNoms)
-                            {
-                                var whiteCougarSpecies = context.species.Where((s) => s.Name == "White cougar");
-                                IEnumerable<Animal> whiteCougars = context.Animals.Where((a) => a.Species == whiteCougarSpecies);
-                            }
-                        }*/
         }
     }
 }
